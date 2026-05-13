@@ -46,7 +46,6 @@ export async function POST(request:NextRequest) {
             {status:400}
         )
         throw error
-        console.log("register Router",error)
     }
 }
 
