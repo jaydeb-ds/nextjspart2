@@ -17,7 +17,7 @@ if(!cached)
    cached = global.mongoose = {conn:null, promise:null}
 }
 
-// DB connection if conection is not found in cached
+// DB connection 
 
 const connectDB =  async () =>{
     if(cached.conn)
